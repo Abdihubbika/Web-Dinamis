@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Web Multimedia</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Web Dinamis Multimedia</h1>
+
+  <!-- Gambar -->
+  <div class="media-section">
+    <h2>Gambar Dinamis</h2>
+    <img id="mainImage" src="Dark Blue and Purple Futuristic Modern Cyber Security Presentation .png" alt="Gambar Dinamis" />
+    <br />
+    <button onclick="gantiGambar(600)">Ganti Gambar</button>
+  </div>
+
+  <!-- Audio -->
+  <div class="media-section">
+    <h2>Audio</h2>
+    <audio controls>
+      <source src="Musik Belajar menambah konsentrasi dan semangat 30 menit pomodoro teknik.mp3" type="audio/mp3">
+    </audio>
+  </div>
+
+  <!-- Video -->
+  <div class="media-section">
+    <h2>Video</h2>
+    <video width="320" height="240" controls>
+      <source src="PORT SECURITY.mp4" type="video/mp4">
+    </video>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
